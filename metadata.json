@@ -1,0 +1,6 @@
+{
+  "name": "Darul Khair Cloud Platform",
+  "description": "Advanced cloud backend administration platform for Darul Khair Media and Charity Foundation, managing videos, audio lectures, Islamic books, scholars, categories, system security, backups, analytics, and settings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

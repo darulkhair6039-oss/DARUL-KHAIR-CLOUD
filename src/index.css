@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Natural Tones Theme Colors (Map standard emerald and slate variables to the palette) */
+  --color-emerald-50: #F1F8E9;
+  --color-emerald-100: #E4EFE9;
+  --color-emerald-200: #C9DFD3;
+  --color-emerald-300: #9EBFAC;
+  --color-emerald-400: #739F85;
+  --color-emerald-500: #2D4A36;
+  --color-emerald-600: #243B2B;
+  --color-emerald-700: #1B3022;
+  --color-emerald-800: #16261B;
+  --color-emerald-900: #111F16;
+  --color-emerald-950: #0B140F;
+
+  --color-slate-50: #F4F7F4;
+  --color-slate-100: #E6EDE6;
+  --color-slate-200: #D8E2D8;
+  --color-slate-300: #B7C7B7;
+  --color-slate-400: #96AB96;
+  --color-slate-500: #6D856D;
+  --color-slate-600: #506150;
+  --color-slate-700: #364236;
+  --color-slate-800: #1B3022;
+  --color-slate-900: #121F16;
+  --color-slate-950: #0D1510;
+}
+
+/* Custom fade effects and utility classes */
+.backdrop-blur-dk {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+input, select, textarea {
+  outline: none;
+}
